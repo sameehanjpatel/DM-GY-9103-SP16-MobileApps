@@ -1,0 +1,291 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F768FBC11C5980A700E9D4BE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F768FBC01C5980A700E9D4BE /* AppDelegate.swift */; };
+		F768FBC31C5980A700E9D4BE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F768FBC21C5980A700E9D4BE /* ViewController.swift */; };
+		F768FBC61C5980A700E9D4BE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F768FBC41C5980A700E9D4BE /* Main.storyboard */; };
+		F768FBC81C5980A700E9D4BE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F768FBC71C5980A700E9D4BE /* Assets.xcassets */; };
+		F768FBCB1C5980A700E9D4BE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F768FBC91C5980A700E9D4BE /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		F768FBBD1C5980A700E9D4BE /* Quiz Sam Patel.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Quiz Sam Patel.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F768FBC01C5980A700E9D4BE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F768FBC21C5980A700E9D4BE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F768FBC51C5980A700E9D4BE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F768FBC71C5980A700E9D4BE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F768FBCA1C5980A700E9D4BE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F768FBCC1C5980A700E9D4BE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F768FBBA1C5980A700E9D4BE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F768FBB41C5980A700E9D4BE = {
+			isa = PBXGroup;
+			children = (
+				F768FBBF1C5980A700E9D4BE /* Quiz Sam Patel */,
+				F768FBBE1C5980A700E9D4BE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F768FBBE1C5980A700E9D4BE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F768FBBD1C5980A700E9D4BE /* Quiz Sam Patel.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F768FBBF1C5980A700E9D4BE /* Quiz Sam Patel */ = {
+			isa = PBXGroup;
+			children = (
+				F768FBC01C5980A700E9D4BE /* AppDelegate.swift */,
+				F768FBC21C5980A700E9D4BE /* ViewController.swift */,
+				F768FBC41C5980A700E9D4BE /* Main.storyboard */,
+				F768FBC71C5980A700E9D4BE /* Assets.xcassets */,
+				F768FBC91C5980A700E9D4BE /* LaunchScreen.storyboard */,
+				F768FBCC1C5980A700E9D4BE /* Info.plist */,
+			);
+			path = "Quiz Sam Patel";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F768FBBC1C5980A700E9D4BE /* Quiz Sam Patel */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F768FBCF1C5980A700E9D4BE /* Build configuration list for PBXNativeTarget "Quiz Sam Patel" */;
+			buildPhases = (
+				F768FBB91C5980A700E9D4BE /* Sources */,
+				F768FBBA1C5980A700E9D4BE /* Frameworks */,
+				F768FBBB1C5980A700E9D4BE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Quiz Sam Patel";
+			productName = "Quiz Sam Patel";
+			productReference = F768FBBD1C5980A700E9D4BE /* Quiz Sam Patel.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F768FBB51C5980A700E9D4BE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Big Nerd Ranch";
+				TargetAttributes = {
+					F768FBBC1C5980A700E9D4BE = {
+						CreatedOnToolsVersion = 7.2;
+					};
+				};
+			};
+			buildConfigurationList = F768FBB81C5980A700E9D4BE /* Build configuration list for PBXProject "Quiz Sam Patel" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F768FBB41C5980A700E9D4BE;
+			productRefGroup = F768FBBE1C5980A700E9D4BE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F768FBBC1C5980A700E9D4BE /* Quiz Sam Patel */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F768FBBB1C5980A700E9D4BE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F768FBCB1C5980A700E9D4BE /* LaunchScreen.storyboard in Resources */,
+				F768FBC81C5980A700E9D4BE /* Assets.xcassets in Resources */,
+				F768FBC61C5980A700E9D4BE /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F768FBB91C5980A700E9D4BE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F768FBC31C5980A700E9D4BE /* ViewController.swift in Sources */,
+				F768FBC11C5980A700E9D4BE /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F768FBC41C5980A700E9D4BE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F768FBC51C5980A700E9D4BE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F768FBC91C5980A700E9D4BE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F768FBCA1C5980A700E9D4BE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F768FBCD1C5980A700E9D4BE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F768FBCE1C5980A700E9D4BE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F768FBD01C5980A700E9D4BE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Quiz Sam Patel/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.bignerdrach.Quiz-Sam-Patel";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F768FBD11C5980A700E9D4BE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Quiz Sam Patel/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.bignerdrach.Quiz-Sam-Patel";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F768FBB81C5980A700E9D4BE /* Build configuration list for PBXProject "Quiz Sam Patel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F768FBCD1C5980A700E9D4BE /* Debug */,
+				F768FBCE1C5980A700E9D4BE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F768FBCF1C5980A700E9D4BE /* Build configuration list for PBXNativeTarget "Quiz Sam Patel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F768FBD01C5980A700E9D4BE /* Debug */,
+				F768FBD11C5980A700E9D4BE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F768FBB51C5980A700E9D4BE /* Project object */;
+}
